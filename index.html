@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width user-scalable=no">
+
+  <title>かわいいジェネレーター by toro_ponz</title>
+  <meta name=”description” content=”かわいいジェネレーターとは貧弱な語彙力をお持ちの皆さんに変わって、様々なもの・ことのかわいさをたった3つのステップで表現することができる語彙力(物理)生成機です。”>
+
+  <!-- Twitter Cards用metaタグ -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@toro_ponz" />
+  <meta name="twitter:creator" content="@toro_ponz">
+  <meta name="twitter:title" content="かわいいジェネレーター by toro_ponz" />
+  <meta name="twitter:description" content="かわいいジェネレーターとは貧弱な語彙力をお持ちの皆さんに変わって、様々なもの・ことのかわいさをたった3つのステップで表現することができる語彙力(物理)生成機です。" />
+  <meta name="twitter:image" content="https://toro-ponz.github.io/cute-generator/image/summary.png" />
+  <meta name="twitter:url" content="https://toro-ponz.github.io/cute-generator" />
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>かわいいジェネレーター<small>by toro_ponz</small></h1>
+    </div>
+  </div>
+  <div class="container content">
+    <div class="introduction">
+      <h2>かわいいジェネレーターとは <small>― what's this?</small></h2>
+      <p>かわいいジェネレーターとは貧弱な語彙力をお持ちの皆さんに変わって、様々な<strong>もの</strong>・<strong>こと</strong>の<strong>かわいさ</strong>をたった3つのステップで表現することができる語彙力(物理)生成機です。</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 step">
+          <div class="step-image">
+            <img src="icon/heart.svg" alt="1. かわいさを入力">
+          </div>
+          <div class="step-description">
+            <h3>1. かわいさを入力</h3>
+            <p class="english">― enter cuteness.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 step">
+          <div class="step-image">
+            <img src="icon/click.svg" alt="2. 生成をクリック">
+          </div>
+          <div class="step-description">
+            <h3>2. 生成をクリック</h3>
+            <p class="english">― press generate button.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 step">
+          <div class="step-image">
+            <img src="icon/share.svg" alt="3. SNSで共有">
+          </div>
+          <div class="step-description">
+            <h3>3. SNSで共有</h3>
+            <p class="english">― share cuteness.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="create">
+      <h2>さぁ、表現してみましょう <small> ― let's try!</small></h2>
+      <p>何も考える必要はありません。頭を空っぽにして、かわいさを数値で入力しましょう。</p>
+      <div class="row">
+        <div class="col-sm-12 col-md-8 offset-md-2 text-center">
+          <input type="text" placeholder="かわいさ" id="cuteness">
+          <button id="generate">生成</button>
+          <textarea placeholder="ここにあなたの感じたかわいさが表現されます。" id="cuteness-text"></textarea>
+          <div class="share">
+            <h3>共有する</h3>
+            <div class="twitter-share-button-area">
+              <a class="twitter-share-button" id="twitter-share-button" href="https://twitter.com/share" data-lang="ja" data-hashtags="かわいいジェネレーター" data-size="large" data-dnt="true"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <p class="copyright">&copy; 2017 とろゝ(<a href="https://twitter.com/toro_ponz" target="_blank">@toro_ponz</a>)</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
