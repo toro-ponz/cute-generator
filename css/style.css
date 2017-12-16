@@ -10,7 +10,7 @@ body {
   font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   color: black;
   background-color: gray;
-  background-image: url("../icon/background.png");
+  background-image: url("../image/background.png");
   width: 100%;
   min-height: 100%;
   height: auto !important;
