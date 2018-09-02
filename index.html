@@ -25,32 +25,38 @@
       <h1>かわいいジェネレーター<small>by toro_ponz</small></h1>
     </div>
   </div>
-  <div class="container content">
+  <div class="container-fluid content">
     <div class="introduction">
       <h2>かわいいジェネレーターとは <small>― what's this?</small></h2>
-      <p>かわいいジェネレーターとは貧弱な語彙力をお持ちの皆さんに変わって、様々な<strong>もの</strong>・<strong>こと</strong>の<strong>かわいさ</strong>をたった3つのステップで表現することができる語彙力(物理)生成機です。</p>
-      <div class="row">
-        <div class="col-sm-12 col-md-4 step">
-          <div class="step-image">
-            <img src="icon/heart.svg" alt="1. かわいさを入力">
+      <p class="introduction-description">かわいいジェネレーターとは貧弱な語彙力をお持ちの皆さんに変わって、様々な<span class="bold">もの</span>・<span class="bold">こと</span>の<span class="bold">かわいさ</span>をたった3つのステップで表現することができる語彙力(物理)生成機です。</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-image-box">
+            <div class="step-image">
+              <img src="icon/heart.svg" alt="1. かわいさを入力">
+            </div>
           </div>
           <div class="step-description">
             <h3>1. かわいさを入力</h3>
             <p class="english">― enter cuteness.</p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 step">
-          <div class="step-image">
-            <img src="icon/click.svg" alt="2. 生成をクリック">
+        <div class="step">
+          <div class="step-image-box">
+            <div class="step-image">
+              <img src="icon/click.svg" alt="2. 生成をクリック">
+            </div>
           </div>
           <div class="step-description">
             <h3>2. 生成をクリック</h3>
             <p class="english">― press generate button.</p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 step">
-          <div class="step-image">
-            <img src="icon/share.svg" alt="3. SNSで共有">
+        <div class="step">
+          <div class="step-image-box">
+            <div class="step-image">
+              <img src="icon/share.svg" alt="3. SNSで共有">
+            </div>
           </div>
           <div class="step-description">
             <h3>3. SNSで共有</h3>
@@ -61,12 +67,12 @@
     </div>
     <div class="create">
       <h2>さぁ、表現してみましょう <small> ― let's try!</small></h2>
-      <p>何も考える必要はありません。頭を空っぽにして、かわいさを数値で入力しましょう。</p>
+      <p class="create-description">何も考える必要はありません。頭を空っぽにして、かわいさを<span class="bold">数値で</span>入力しましょう。</p>
       <div class="row">
         <div class="col-sm-12 col-md-8 offset-md-2 text-center">
-          <input type="text" placeholder="かわいさ" id="cuteness">
-          <button id="generate">生成</button>
-          <textarea placeholder="ここにあなたの感じたかわいさが表現されます。" id="cuteness-text"></textarea>
+          <input class="cuteness" type="text" placeholder="かわいさ" id="cuteness">
+          <button class="generate-button" id="generate">生成</button>
+          <textarea class="result" placeholder="ここにあなたの感じたかわいさが表現されます。" id="cuteness-text"></textarea>
           <div class="share">
             <h3>共有する</h3>
             <div class="twitter-share-button-area">
