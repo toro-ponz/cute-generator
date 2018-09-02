@@ -143,6 +143,13 @@ p {
   margin: 1.5rem 3.5rem;
 }
 
+.try-box {
+  width: 650px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
 .cuteness {
   font-size: 2rem;
   width: 150px;
@@ -151,6 +158,7 @@ p {
   border: 2px solid deeppink;
   margin: 5px 0;
   padding: 0.75rem;
+  text-align: center;
 }
 
 .generate-button {
