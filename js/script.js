@@ -1,5 +1,5 @@
 function cute(count) {
-  if (count < 1) {
+  if (isNaN(count) || count < 1) {
     return 'かわいい';
   }
 
@@ -26,7 +26,7 @@ $(function () {
   $('#generate').on('click', function () {
     var cuteness_count = $('#cuteness').val();
 
-    var cuteness_text = cute(Number(cuteness_count));
+    var cuteness_text = cute(parseInt(cuteness_count));
 
     $('#cuteness-text').val(cuteness_text);
 
